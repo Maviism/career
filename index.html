@@ -15,9 +15,6 @@
             <p class="font-semibold">CareerAdvisor</p>
         </div>
         <div class="flex items-center">
-            <div class="mr-8">
-                <a href="" class="font-semibold hover:underline">About Us</a>
-            </div>
             <button id="openModal" class="bg-[#F3F3F3] px-4 py-2 rounded-md font-bold">Login</button>
         </div>
     </nav>
@@ -25,7 +22,7 @@
     <main>
         <div id="hero" class="py-24 px-10 bg-[#D9D9D9]">
             <h1 class="font-semibold text-2xl md:text-5xl mt-10">Welcome to <span class="font-bold italic underline">CareerAdvisor!</span></h1>
-            <p class="mt-8 text-lg font-semibold">Discover Your Dream Career with Personalized and Accurate Job Recommendations. With CareerAdvisor, we help you connect your interests, skills, and hobbies with suitable career opportunities. Take the first step towards a career future full of potential.
+            <p class="mt-8 text-lg font-semibold md:w-2/3">Discover Your Dream Career with Personalized and Accurate Job Recommendations. With CareerAdvisor, we help you connect your interests, skills, and hobbies with suitable career opportunities. Take the first step towards a career future full of potential.
             </p>
 
             <button id="openModal1" class="bg-[#707070] text-white w-28 px-4 py-2 text-center mt-10 font-semibold rounded-md">Let's Start</button>
@@ -33,10 +30,10 @@
 
         <div class="py-10 px-4">
             <h2 class="text-white text-2xl font-bold text-center">Why CareerAdvisor?</h2>
-            <div class="mt-10 w-full">
-                <p class="w-96">✨ Personalized: Customize your preferences to receive recommendations aligned with your interests and career vision.</p>
-                <p class="w-96 text-right">🚀 Accurate: Utilize the power of machine learning for in-depth analysis that results in precise recommendations.</p>
-                <p class="w-96">👥 Interactive: Like or dislike recommendations, and witness how our system understands you better over time.</p>
+            <div class="grid grid-cols-3 gap-4 mt-10 w-full font-medium bg-yellow-400">
+                <p class="col-start-1 col-end-2">✨ Personalized: Customize your preferences to receive recommendations aligned with your interests and career vision.</p>
+                <p class="text-right bg-red-300">🚀 Accurate: Utilize the power of machine learning for in-depth analysis that results in precise recommendations.</p>
+                <p class="">👥 Interactive: Like or dislike recommendations, and witness how our system understands you better over time.</p>
             </div>
         </div>
     </main>
@@ -46,7 +43,7 @@
             <button id="closeModal" class="absolute top-2 right-4">&cross;</button>
             <h4 class="font-bold text-xl mb-4">User Login</h4>
             <div class="">
-                <form action="/dashboard.html" method="post">
+                <form action="/career/dashboard.html" method="post">
                     <input type="email" placeholder="Email" class="my-1 px-2 py-1 w-full bg-[#DCDCDC] rounded-sm">
                     <input type="password" placeholder="Password" class="my-1 px-2 py-1 w-full bg-[#DCDCDC] rounded-sm">
                     <input type="checkbox" class="mt-2" value="lsRememberMe" id="rememberMe"> 
@@ -57,8 +54,8 @@
                 </form>
             </div>
             <div class="flex flex-col mt-10">
-                <a href="/register.html" class="text-sm font-semibold" >Doesnt have account? <span class="text-blue-600 hover:text-blue-800">Signup here</span></a>
-                <a href="/forgot-password" class="text-sm font-semibold">Forgot your password? <span class="text-blue-600 hover:text-blue-800">Click here</span></a>
+                <a href="/career/register.html" class="text-sm font-semibold" >Doesnt have account? <span class="text-blue-600 hover:text-blue-800">Signup here</span></a>
+                <a href="/career/forgot-password.html" class="text-sm font-semibold">Forgot your password? <span class="text-blue-600 hover:text-blue-800">Click here</span></a>
             </div>
         </div>
     </div>
